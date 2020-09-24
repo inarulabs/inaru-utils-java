@@ -11,6 +11,7 @@ public final class StreamUtils {
         return collection == null || collection.isEmpty() ? Stream.empty() : collection.stream();
     }
 
+    @SuppressWarnings("unchecked")
     public static <T> T[] merge(T[]... arrays) {
         List<T> merged = new ArrayList<>();
         Stream.of(arrays).flatMap(Stream::of).forEach(merged::add);
