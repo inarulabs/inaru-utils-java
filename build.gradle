@@ -3,6 +3,7 @@ plugins {
     id 'java-library'
 }
 
+description = "iNaru Java Utils"
 bootRun.enabled(false)
 bootJar.enabled(false)
 jar.enabled(true)
