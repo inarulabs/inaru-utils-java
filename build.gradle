@@ -4,8 +4,6 @@ plugins {
 }
 
 description = "iNaru Java Utils"
-bootRun.enabled(false)
-bootJar.enabled(false)
 jar.enabled(true)
 
 dependencies {
